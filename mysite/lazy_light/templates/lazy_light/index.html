@@ -1,0 +1,9 @@
+{% if light_on %}
+    <form action='toggleLight' method='POST'>
+    <button type='submit'>OFF</button>
+    </form>
+{% else %}
+    <form action='toggleLight' method='POST'>
+    <button type='submit'>ON</button>
+    </form>
+{% endif %}
