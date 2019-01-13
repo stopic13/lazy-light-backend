@@ -1,9 +1,6 @@
 {% if light_on %}
-    <form action='toggleLight' method='POST'>
-    <button type='submit'>OFF</button>
-    </form>
+    <a href="toggleLight" role="button"> OFF </a>
 {% else %}
-    <form action='toggleLight' method='POST'>
-    <button type='submit'>ON</button>
-    </form>
+    <a href="toggleLight" role="button"> ON </a>
+
 {% endif %}
